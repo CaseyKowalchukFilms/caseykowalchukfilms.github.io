@@ -2122,9 +2122,11 @@ span.overlay-content {
 		display: none;
 	}
 
-	#btn-center {
+	.btn-center {
 		display: none;
 	}
+
+
 
 /******** LANDSCAPE TABLET ********/
 
