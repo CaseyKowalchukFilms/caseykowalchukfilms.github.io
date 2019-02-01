@@ -1301,11 +1301,11 @@ a {
 
 #pic-pro-over iframe {
     height: 80%;
+    width: 100vw;
     max-width: 100vw;
     margin: 5.5vh auto 0;
     background-color: #000;
 }
-
 
 
 
