@@ -1937,7 +1937,7 @@ span.overlay-content {
 }
 
 #pic-pro-over iframe {
-    height: 60vh;
+    height: 55vh;
 }
 
 #subtitle-pro-over h4 {
@@ -1947,7 +1947,7 @@ span.overlay-content {
 }
 
 #process-pro {
-    margin: 0 45px 0 70px;
+    margin: 10px 0 0 0;
     width: 80vw;
     position: initial;
     right: 0;
@@ -2069,6 +2069,11 @@ span.overlay-content {
     display: inline-block;
   }
 
+	#text-pro-over {
+    margin: 20px 30px 6px;
+    /* display: inline-block; */
+}
+
   #title-pro h1 {
     text-align: center;
     line-height: 1.5em;
@@ -2080,8 +2085,8 @@ span.overlay-content {
   }
 
 	#process-pro {
-    margin: 0px 45px 0 40px;
-    width: initial;
+	    margin: 0px 45px 0 0;
+	    /* width: initial; */
 	}
 
 	#pic-pro img {
@@ -2099,11 +2104,10 @@ span.overlay-content {
 	.mobile-upperspacing {
 		padding-top: 100px;
 	}
-  #process-pro p {
-      margin: 15px 5%;
-  }
 
-
+	#process-pro p {
+	    margin: 15px 5% 0 0;
+	}
 
   h6 {
       position: relative;
@@ -2113,6 +2117,14 @@ span.overlay-content {
   #socialmedia {
     padding: 100px 0 160px;
   }
+
+	#contact-btn {
+		display: none;
+	}
+
+	#btn-center {
+		display: none;
+	}
 
 /******** LANDSCAPE TABLET ********/
 
