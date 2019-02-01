@@ -1479,7 +1479,8 @@ a {
 }
 
 .js-masonry {
-  margin: 0;
+    margin: 0;
+    max-width: none;
 }
 
 /* BIO */
