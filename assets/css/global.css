@@ -285,9 +285,10 @@ h6 {
 }
 
 h1 {
-    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
+		font-family: 'Roboto', sans-serif;
     font-size: 4.8em;
-    /* font-weight: 700; */
+    font-weight: 700;
     color: #FFF;
     line-height: 1.2em;
     text-align: center;
@@ -1971,6 +1972,11 @@ span.overlay-content {
   p {
     font-size: 125%;
   }
+
+	#subtitle h2 {
+    font-size: 180%;
+    padding-top: 8px;
+}
 
   .btn-mobile-menu {
       background-image: url(../images/icon-menu-medium@2x.png);
