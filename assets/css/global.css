@@ -532,10 +532,13 @@ a.btn-write-up {
 
 #videobackground {
     display: inline;
-    position: fixed;
     z-index: -1;
-    height: 100vh;
-    left: 200px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
 }
 
 /*#photobackground {
@@ -1452,9 +1455,9 @@ a {
 
 /* HOME CONTENT */
 
-#videobackground {
+/* #videobackground {
     left: 200px;
-}
+} */
 
 #text-home {
     margin-left: 200px;
