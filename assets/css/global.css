@@ -1418,6 +1418,30 @@ a {
   font-style: italic;
 } */
 
+/**** REVIEWS *****/
+
+/* #review-mobile {
+	height: 0;
+	width: 0;
+} */
+
+#review-section {
+	background-image: url(../images/grain-lite.png);
+	background-color: #525252;
+	padding: 75px 0;
+}
+
+#review-section h2 {
+    color: #fff;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+#review-desktop {
+	/* visibility: visible; */
+	 padding-left: 0;
+}
+
 /******** MEDIA QUERYS *********/
 
 @media only screen and (max-width: 1564px) {
@@ -1547,6 +1571,7 @@ h5 {
 
 #process-pro {
     width: 40vw;
+}
 }
 
 /******** PORTRAIT TABLET *********/
@@ -1962,6 +1987,28 @@ span.overlay-content {
     text-align: left;
 }
 
+/* REVIEWS */
+/*
+#review-mobile {
+	display: inline;
+} */
+
+/* #review-desktop {
+	display: none;
+	padding-left: 100px;
+} */
+
+#review-desktop {
+	/* visibility: visible; */
+	padding-left: 100px;
+}
+
+
+/* #review-desktop a {
+	opacity: 0;
+} */
+}
+
 /******** PHONE ********/
 
 @media only screen and (max-width: 750px) {
@@ -2135,7 +2182,7 @@ span.overlay-content {
 	.btn-center {
 		display: none;
 	}
-
+}
 
 
 /******** LANDSCAPE TABLET ********/
