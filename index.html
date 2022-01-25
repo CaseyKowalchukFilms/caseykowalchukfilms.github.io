@@ -19,7 +19,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900,700italic,400italic|Radley:400italic|Permanent+Marker' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="assets/fonts/font-awesome-4.3.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/brands.css" integrity="sha384-BKw0P+CQz9xmby+uplDwp82Py8x1xtYPK3ORn/ZSoe6Dk3ETP59WCDnX+fI1XCKK" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous">
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/fontawesome.css" integrity="sha384-4aon80D8rXCGx9ayDt85LbyUHeMWd3UiBaWliBlJ53yzm9hqN21A+o1pqoyK04h+" crossorigin="anonymous"> -->
+
 	<!-- <link href="assets/css/lightbox.css" rel="stylesheet"> -->
 	<link rel="stylesheet" type="text/css" href="assets/css/global.css">
 </head>
@@ -68,20 +69,21 @@
 			</nav>
 			<footer>
 				<h6>
-					<!-- <script type="text/javascript">
+					<script type="text/javascript">
 						// protected email script by Joe Maller
 						// JavaScripts available at http://www.joemaller.com
 						// this script is free to use and distribute
 						// but please credit me and/or link to my site
+						// icon code -> "<i class='fa fa-envelope-o fa-3x'></i>"
 						emailE='caseykowalchuk.com'
 						emailE=('hello' + '@' + emailE)
-						document.write('<a href="mailto:' + emailE + '" style="color: #fff;" target="_blank">' + "<i class='fa fa-envelope-o fa-3x'></i>" + '</a>')
+						document.write('<a href="mailto:' + emailE + '" style="color: #fff;" target="_blank">' + emailE + '</a>')
 					</script>
 					<noscript>
 						Email address protected by JavaScript.
 						Please enable JavaScript to contact me.
-					</noscript> -->
-					<br><br><br>&copy;Casey Kowalchuk, 2021. All rights reserved.
+					</noscript>
+					<br><br><br>&copy;Casey Kowalchuk, 2022. All rights reserved.
 				</h6>
 			</footer>
 		</div>
@@ -138,7 +140,7 @@
 
 			<section id="gallery">
 				<h2>Projects</h2>
-				<div class="js-masonry grid">
+				<!-- <div class="js-masonry grid">
 					<div class="grid-item gal">
 						<a class="popupTrigger" popupContent="highest-peak" href="#">
 							<img src="assets/images/highest-peak/highest-peak-thumb.png" class="port">
@@ -147,7 +149,7 @@
 								<br>
 								<h5>Director, Cinematographer, Editor, Colorist</h5></span></span>
 						</a>
-					</div>
+					</div> -->
 					<div class="js-masonry grid">
 						<div class="grid-item gal">
 							<a class="popupTrigger" popupContent="centre" href="#">
@@ -188,7 +190,7 @@
 										<h5>Cinematographer, Editor</h5></span></span>
 								</a>
 							</div>
-							<div class="js-masonry grid">
+							<!-- <div class="js-masonry grid">
 								<div class="grid-item gal">
 									<a class="popupTrigger" popupContent="bones" href="#">
 										<img src="assets/images/bones/bones-thumb.png" class="port">
@@ -197,7 +199,17 @@
 											<br>
 											<h5>Director, Cinematographer, Editor, Colorist</h5></span></span>
 									</a>
-								</div>
+								</div> -->
+								<div class="js-masonry grid">
+									<div class="grid-item gal">
+										<a class="popupTrigger" popupContent="tombstone" href="#">
+											<img src="assets/images/tombstone/tombstone-thumb.png" class="port">
+											<span class="overlay-content"><span>
+												<h4>Narrative Music Video</h4>
+												<br>
+												<h5>Cinematographer, Editor, Colorist</h5></span></span>
+										</a>
+									</div>
 								<div class="js-masonry grid">
 									<div class="grid-item gal">
 										<a class="popupTrigger" popupContent="morning" href="#">
@@ -354,6 +366,7 @@
 <script src="assets/scripts/mobile-menu.js"></script>
 <script src="assets/scripts/toggle.js"></script>
 <script src="assets/scripts/project-overlay-toggle.js"></script>
+<script src="https://kit.fontawesome.com/0162757be8.js" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
 	$(document).ready(function(){
