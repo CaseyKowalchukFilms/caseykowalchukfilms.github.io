@@ -301,7 +301,9 @@ h2, h3, h4, h5, p {
 }
 
 h2 {
-    font-family: 'Permanent Marker', cursive;
+    /* font-family: 'Permanent Marker', cursive; */
+		font-family: 'Roboto', sans-serif;
+		font-weight: 900;
 }
 
 h3 {
@@ -765,12 +767,12 @@ a.btn-write-up {
 
 #demo h2 {
     padding-bottom: 50px;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 #gallery h2 {
     padding-bottom: 50px;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .js-masonry {
@@ -835,8 +837,8 @@ h4 {
     line-height: 1.1em;
     font-size: 2em;
     color: #000;
-    /* font-weight: 700; */
-    font-family: "Permanent Marker", cursive;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
 }
 
@@ -1350,7 +1352,9 @@ a {
     font-size: 0.5em;
     font-style: normal;
     line-height: 1.2em;
-    font-family: "permanent marker", cursive;
+    /* font-family: "permanent marker", cursive; */
+		font-family: 'Roboto', sans-serif;
+		font-weight: 700;
 }
 
 /*
