@@ -664,7 +664,7 @@ a.btn-write-up {
     padding-top: 150px;
     position: relative;
     bottom: 0;
-    background-image: url(../images/casey-kowalchuk-films-2.jpg);
+    background-image: url(../images/CKFilms-GeoffBTS_02-edited.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -1796,13 +1796,13 @@ h6 {
 }
 
 #videobackground {
-  display: none;
-  left: 0;
+  /* display: none; */
+  /* left: 0; */
 }
 
-#photobackground {
+/* #photobackground {
   display: block;
-}
+} */
 
 img.featimg {
   width: 40%;
