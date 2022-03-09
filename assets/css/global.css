@@ -1443,7 +1443,7 @@ a {
 
 #review-desktop {
 	/* visibility: visible; */
-	 padding-left: 0;
+	padding: 0 8vw;
 }
 
 #review-section a {
@@ -2008,7 +2008,8 @@ span.overlay-content {
 
 #review-desktop {
 	/* visibility: visible; */
-	padding-left: 100px;
+	/* padding-left: 100px; */
+	/* padding: 8vw; */
 }
 
 
