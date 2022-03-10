@@ -188,9 +188,9 @@ i {
 }
 
 #logodiv a img {
-    width: 180;
+    width: 160px;
     padding: 0;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
 /*#logodiv a img:hover {
@@ -292,6 +292,7 @@ h1 {
     color: #FFF;
     line-height: 1.2em;
     text-align: center;
+		padding-bottom: 15px;
 }
 
 h2, h3, h4, h5, p {
@@ -307,8 +308,9 @@ h2 {
 }
 
 h3 {
-    font-size: 2.3em;
-    font-weight: 700;
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: 3px;
     color: #fff;
 }
 
@@ -374,7 +376,7 @@ p {
 .icons {
   font-size: 1em;
   padding: 0 1%;
-  width: 24%;
+  width: 18%;
   float: left;
   text-align: center;
   color: #fff;
@@ -930,7 +932,7 @@ a {
 }
 
 #about-home p {
-    text-align: left;
+    text-align: justify;
     padding-right: 36px;
     width: 459.2px;
     float: right;
@@ -1537,7 +1539,7 @@ a {
 }
 
 #about-home p {
-    text-align: left;
+    text-align: justify;
     padding-right: 75px;
     width: 419px;
     float: right;
@@ -1863,8 +1865,8 @@ img.featimg {
 }
 
 h3 {
-    font-size: 1.8em;
-    font-weight: 400;
+    /* font-size: 1.8em;
+    font-weight: 400; */
     color: #fff;
 }
 
