@@ -625,9 +625,9 @@ a.btn-write-up {
 }
 
 .bounce {
-  -webkit-animation: bounce 2s infinite;
- -moz-animation: bounce 2s infinite;
- -o-animation: bounce 2s infinite;
+  -webkit-animation: static 2s infinite;
+ -moz-animation: static 2s infinite;
+ -o-animation: static 2s infinite;
 }
 
 @-webkit-keyframes bounce {
@@ -760,7 +760,7 @@ a.btn-write-up {
 /* PORTFOLIO GRID */
 
 #demo {
-  padding: 100px 0;
+  padding: 100px 0 0;
   clear: both;
   width: calc(100vw - 200px);
   background-image: url(../images/grain-lite.png);
